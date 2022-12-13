@@ -97,7 +97,7 @@ header .container {
     width: 100%;
     margin: 0;
     padding: 1rem 0;
-    position: fixed;
+    border-bottom: 2px solid black;
 }
 
 nav {

@@ -93,6 +93,42 @@ img {
     margin: 0px auto;
 }
 /*** header Stles ***/
+header .container {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 1rem 1rem;
+}
+
+nav ul li a{
+    padding: .5rem 2em;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+nav ul li a:visited,
+nav ul li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
 /*** Main Stles ***/
 
 .infobox {

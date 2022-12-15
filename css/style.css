@@ -156,7 +156,9 @@ nav {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
+    text-decoration: underline;
     border-bottom: 0;
+    padding-bottom: calc(1rem + 2px);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }

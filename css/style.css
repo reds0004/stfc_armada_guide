@@ -195,4 +195,13 @@ nav ul li a:hover {
     flex-flow: column nowrap;
 }
 
+dt {
+    font-weight: 600;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+dd {
+    text-indent: 3rem;
+}
 /*** footer Stles ***/
